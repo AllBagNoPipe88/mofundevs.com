@@ -232,6 +232,56 @@ border: none;
   background-color: #005f66;
 }
 
+.about-text {
+  text-align: center;
+  padding: 25px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.about-section {
+  background-color: #07e6f6;
+}
+
+.photo-section {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.selfie {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.photo-h1 {
+  text-align: center;
+  font-size: 2.5em;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.photo-p {
+  text-align: center;
+  font-size: 1.0em;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.showcase-h1 {
+  text-align: center;
+  font-size: 2.0em;
+}
+
+.showcase-p {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 25px
+}
+
 @media (max-width: 768px) {
   .navbar {
     flex-wrap: wrap;
@@ -334,6 +384,10 @@ border: none;
   font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
   font-size: 3em;
   color: rgb(8, 7, 7)
+}
+
+.selfie {
+  max-width: 200px;
 }
 
 }
