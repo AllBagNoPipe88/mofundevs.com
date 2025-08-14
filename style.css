@@ -1,0 +1,170 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #07e6f6;
+  color: rgb(253, 251, 251);
+  padding: 10px 40px;
+  
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  padding-right: 20px;
+}
+
+.logo a:hover {
+  text-decoration: none;
+}
+
+.logo img {
+  height: 60px;
+  margin-right: 20px;
+}
+
+.brand {
+  font-size: 2.0em;
+  font-weight: bold;
+  text-shadow: 0px 5px 5px rgb(5, 5, 5);
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 1.0em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  text-shadow: 2px 3px 3px rgb(0, 0, 0);
+}
+
+.nav-links a:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transform: translateY(-2px);
+  font-weight: bold;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 150px 20px 80px;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: -190px;
+  left: 53%;
+  transform: translateX(-50%);
+  width: 700px;
+  height: 700px;
+  background: url('./assets/images/MoFunDevsLogo.png') no-repeat center;
+  background-size: contain;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+.button-section {
+  background-color: #006381;
+  padding: 30px 0px;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+
+}
+
+.hero h1 {
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+  font-family: fantasy;
+  font-size: 5.0em;
+  color: rgb(8, 7, 7);
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.hero-btn {
+  background-color: #07e6f6;
+  padding: 15px 150px;
+  margin: 0px 10px;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 5px 3px 5px rgba(2, 2, 2, 0.2);
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.hero-btn:hover {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  transform: translateY(-2px);
+}
+.info-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.info-section h2 {
+  font-family: 'Arial Black', sans-serif;
+  font-style: italic;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.social-text {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.icon-link img {
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s;
+}
+
+.icon-link img:hover {
+  transform: scale(1.75);
+}
+
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
