@@ -45,6 +45,12 @@ body, html {
   text-shadow: 0px 5px 5px rgb(5, 5, 5);
 }
 
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
 .nav-links a {
   margin-left: 20px;
   text-decoration: none;
@@ -54,6 +60,15 @@ body, html {
   text-transform: uppercase;
   transition: all 0.3s ease;
   text-shadow: 2px 3px 3px rgb(0, 0, 0);
+}
+
+.nav-links .active {
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  font-size: 1.5em;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: none;
+
 }
 
 .nav-links a:hover {
@@ -167,4 +182,27 @@ body, html {
   display: flex;
   justify-content: center;
   margin: 20px;
+}
+.content {
+  text-align: left;
+  padding-left: 30px;
+  background-color: rgb(0, 240, 252);
+}
+
+.content-divider {
+  padding: 25px;
+}
+
+.form-divider {
+  padding: 50px;
+}
+
+.contact-form {
+padding-left: 50px;
+}
+
+.contact-content {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
