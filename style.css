@@ -1,7 +1,7 @@
 body, html {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .navbar {
@@ -126,7 +126,7 @@ body, html {
 .hero-btn {
   background-color: #07e6f6;
   padding: 15px 150px;
-  margin: 0px 10px;
+  margin: 0px 0px;
   border-radius: 8px;
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -197,14 +197,16 @@ body, html {
   padding: 50px;
 }
 
-.contact-form {
-padding-left: 50px;
-}
-
 .contact-content {
   text-align: center;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.store iframe {
+width: 100%;
+min-height: 1000px;
+border: none;
 }
 
 @media (max-width: 768px) {
